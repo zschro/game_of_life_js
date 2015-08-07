@@ -8,6 +8,7 @@ body{
 	font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 #grid {
 	border-spacing: 0;
 	margin:auto;
@@ -32,3 +33,28 @@ body{
 	#grid input[type="checkbox"]:checked{
 		background: black;
 	}
+=======
+table{
+	border-spacing: 0;
+	margin:auto;
+}
+
+td{
+	border:1px solid gray;
+}
+
+input[type="checkbox"]{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: yellow;
+
+}
+
+input[type="checkbox"]:checked{
+	background: black;
+}
+>>>>>>> c99deda6170c8f6136d66517c9d50c0e7aeeb92b
